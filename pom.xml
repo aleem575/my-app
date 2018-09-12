@@ -1,5 +1,5 @@
 project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>id.ale75</groupId>
 	<artifactId>myweb</artifactId>
@@ -7,9 +7,8 @@ project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2
 	<version>0.16.0-SNAPSHOT</version>
 	<name>myweb aplication</name>
 	<url>http://maven.apache.org</url>
-	
 	<properties>
-		<docker.image.prefix>aleem575</docker.image.prefix>
+	   <docker.image.prefix>aleem575</docker.image.prefix>
 	</properties>	
 	<dependencies>
 		<dependency>
@@ -19,7 +18,6 @@ project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2
 			<scope>provided</scope>
 		</dependency>
 			<!-- Demo git -->
-		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -51,8 +49,6 @@ project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2
 		  <scope>test</scope>
 		</dependency> -->
 	</dependencies>
-	
-
 	
 	<distributionManagement>
 		 <snapshotRepository>
